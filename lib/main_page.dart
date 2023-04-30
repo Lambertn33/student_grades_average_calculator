@@ -9,6 +9,7 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainAppState extends State<MainApp> {
+  final studentFormKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,6 +45,7 @@ class _MainAppState extends State<MainApp> {
 
   Widget studentGradeForm() {
     return Form(
+      key: studentFormKey,
         child: Column(
       children: [
         TextFormField(
