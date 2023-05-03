@@ -4,7 +4,7 @@ import 'package:student_grades_average_calculator/constants.dart';
 class StudentsAverageWidget extends StatelessWidget {
   final double average;
   final int numberOfLessons;
-  StudentsAverageWidget({ required this.average, required this.numberOfLessons, super.key});
+  const StudentsAverageWidget({ required this.average, required this.numberOfLessons, super.key});
 
   @override
   Widget build(BuildContext context) {

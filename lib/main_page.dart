@@ -46,7 +46,7 @@ class _MainAppState extends State<MainApp> {
                           numberOfLessons: DataHelper.allAddedLessons.length)),
                 ],
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               const Text(
                 'All Added Lessons',
                 textAlign: TextAlign.center,

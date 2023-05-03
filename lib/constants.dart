@@ -8,7 +8,7 @@ class Constants {
   static final mainBarFont = GoogleFonts.poppins(
     fontSize: 20, color: mainColor
   );
-  static TextStyle averageStyles = TextStyle(
+  static TextStyle averageStyles = const TextStyle(
     fontSize: 32
   );
 }
